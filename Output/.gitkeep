@@ -1,0 +1,7 @@
+# This folder stores generated outputs
+# Files in this folder are auto-generated and not tracked by git:
+# - output.pdf (The final PDF report)
+# - chart.png (Performance visualization)
+# 
+# These files are created when you run: python main.py
+

@@ -1,0 +1,46 @@
+============================================================
+TrendSpotter: The Automated Insight Engine - Quick Start
+============================================================
+
+✅ INSTALLATION FIXED!
+
+The issue was Python 3.13 compatibility. Updated requirements.txt
+to use newer package versions with pre-built wheels.
+
+============================================================
+RUNNING LOCALLY (Windows)
+============================================================
+
+1. Generate Mock Data:
+   python generate_mock_data.py
+
+2. Run the Pipeline:
+   python main.py
+
+3. Check Output:
+   - PDF Report: Output/output.pdf
+   - Chart Image: Output/chart.png
+
+============================================================
+OPTIONAL: Add Gemini API Key for Real AI Insights
+============================================================
+
+1. Get API key from: https://makersuite.google.com/app/apikey
+
+2. Edit .env file (currently ignored for security):
+   GEMINI_API_KEY=your_actual_api_key_here
+
+3. Re-run: python main.py
+
+Note: The pipeline works WITHOUT the API key using smart fallback analysis.
+
+============================================================
+FILES GENERATED
+============================================================
+
+✅ Output/output.pdf     - Generated PDF report
+✅ Output/chart.png      - Performance visualization
+
+============================================================
+
+It's Done Now.
